@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url(imagenes/521052_1266463.jpg);
+    background: #FFB75E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ed8f0395, #ffb75e8c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ed8f037e, #ffb75e8e), url(imagenes/521052_1266463.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    animation-duration: 3s;
+    animation-name: deslizar;
+    animation-iteration-count: infinite;
+    color: rgb(6, 6, 6);
+ }
+ @keyframes deslizar {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin: 0%;
+        width: 100%;
+    }
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #070707;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e8491d;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #f46a3a;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 400px 0 0 0;
+}

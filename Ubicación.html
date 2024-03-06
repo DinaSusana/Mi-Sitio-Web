@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #FFB75E;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #ed8f0395, #ffb75e8c);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #ed8f037e, #ffb75e8e), url(imagenes/521052_1266463.jpg);
+        }
+        
+        nav {
+            text-align: center;
+            background-color: #6d0606;
+            padding: 1rem 0;
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        nav a:hover {
+            background-color: #0ef01d;
+        }
+        a {
+            text-decoration: none;
+            color: #f1f4f1;
+        }
+
+        a:hover {
+            color: #070707;
+        }
+        header {
+        background-image:url(imagenes/fondoo.webp);
+        color: #060505;
+        padding: 1rem;
+        text-align: center;
+        height: 100px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+        }
+        .form-group button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CONTACTO</h1>
+    </header>
+    <nav>
+        <a href="index.html">INICIO</a>
+        <a href="Productos.html">PRODUCTOS</a>
+        <a href="Ubicación.html">CONTACTENOS</a>
+        <a href="contactos.html">¿QUIENES SOMOS?</a>
+    </nav>
+    <div class="container">
+        <h1> <b>Escribenos</b></h1>
+        <form action="">
+            <div class="form-group">
+                <label for="nombre"><b>Nombre:</b></label>
+                <input type="text" id="nombre" name="nombre" required >
+            </div>
+            <div class="form-group">
+                <label for="apellido"><b>Apellido:</b></label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="email"><b>Correo Electrónico:</b></label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono"> <b>Teléfono:</b></label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="asunto"> <b>Asunto:</b></label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje"><b>Mensaje:</b></label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button id="whatsapp-button"><b>Enviar datos a WhatsApp </b></button>
+                <script src="app.js"></script>
+                <a href="https://api.WhatsApp.com/send?phone=971276165" target="_blank"> WhatsApp chat</a>
+            </div>
+        </form>
+        <h1> <b>Ubicanos</b></h1>
+        <link rel="stylesheet" href="">
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.404521775038!2d-76.9710089!3d-12.152839400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b85dcd2184cf%3A0x3076451f9a10e993!2sMercado%20Cooperativo%20Ciudad%20de%20Dios%20de%20San%20Juan%20de%20Miraflores!5e0!3m2!1ses-419!2spe!4v1707410904919!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <script>
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: -34.397, lng: 150.644 },
+            zoom: 8,
+            });
+        }
+        </script>
+    </div>
+    <footer>
+        <p>DETALLES DE CONTACTO <br> Contacta con nosotros hoy! </p>
+        <li> Av. Alfredo Mendiola 5805, Lima, Perú</li>
+        <li>ventas@distribuidoradonbosco.com.pe</li>
+        <li> (+511) 528 1261</li>
+        <hr>
+        <p>© 2024 Avícola "EBER"</p>
+    </footer>
+</body>
+</html>

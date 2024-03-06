@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes/521052_1266463.jpg);
+    background: #FFB75E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ed8f0395, #ffb75e8c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ed8f037e, #ffb75e8e), url(imagenes/521052_1266463.jpg);
+}
+
+header {
+    background-image:url(imagenes/fondoo.webp);
+    color: #060505;
+    padding: 1rem;
+    text-align: center;
+    height: 100px;
+}
+nav {
+    text-align: center;
+    background-color: #2bb3ee;
+    padding: 1rem 0;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: #ca0d8b;
+}
+a {
+    text-decoration: none;
+    color: #f1f4f1;
+}
+
+a:hover {
+    color: #031803;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1rem;
+}
+
+.product-category {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+  
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+  }
+  
+  .product-card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: calc(33.333% - 2rem);
+  }
+  
+  .product-card img {
+    border-radius: 5px;
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .product-card h2 {
+    margin: 1rem 0;
+  }
+  
+  .product-card p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .add-to-cart {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #3e8e41;
+    cursor: pointer;
+  }
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}

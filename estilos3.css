@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: antiquewhite;
+    background: #00C9FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #92fe9d77, #00c8ff68), url(imagenes/gallina.webp); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1 {
+    animation-duration: 3s;
+    animation-name: deslizar;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
+ @keyframes deslizar {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin: 0%;
+        width: 100%;
+    }
+ }
+
+/* Encabezado */
+header {
+    background-image: url(imagenes/fondoo.webp);
+    color: rgb(6, 6, 6);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    text-align: center;
+    background-color: #290f41;
+    padding: 1rem 0;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: #2e38f1;
+}
+a {
+    text-decoration: none;
+    color: #f1f4f1;
+}
+
+a:hover {
+    color: #f5f907;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}

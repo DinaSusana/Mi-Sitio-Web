@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avícola "EBER"</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+      
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: rgb(218, 162, 87);
+        background-color: rgb(209, 162, 162);
+        animation-name: ejemplo;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        background: #FFB75E;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ed8f0395, #ffb75e8c);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ed8f037e, #ffb75e8e), url(imagenes/521052_1266463.jpg);
+
+    }
+        @keyframes ejemplo{
+            from{
+                background-color: rgba(241, 174, 174, 0.441);  
+            }
+            to{
+                background-color: rgba(115, 160, 237, 0.347);
+            }
+        }
+
+        /* Encabezado */
+        header {
+            background-image: url(imagenes/fondoo.webp);
+            color: rgb(6, 6, 6);
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #c91b1b;
+            padding: 1rem 0;
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        nav a:hover {
+            background-color: #140538;
+        }
+        a {
+            text-decoration: none;
+            color: #f1f4f1;
+        }
+
+        a:hover {
+            color: #f5f907;
+        }
+
+        /* Contenido */
+        main {
+            padding: 2rem;
+        }
+
+        main h1 {
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            line-height: 1.6;
+        }
+        h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+        /* Sección de productos */
+        .productos {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .productos img {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 1rem;
+        }
+
+        /* Botones */
+        section a {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            margin: 1rem 0.5rem;
+            cursor: pointer;
+        }
+
+        section a:hover {
+            background-color: #46f009;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        /* Media queries para dispositivos móviles */
+        @media (max-width: 600px) {
+            nav,
+            main {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>𝘼𝙫í𝙘𝙤𝙡𝙖 "𝙀𝘽𝙀𝙍"</h1>
+    </header>
+    <nav>
+        <a href="index.html">INICIO</a>
+        <a href="Productos.html">PRODUCTOS</a>
+        <a href="Ubicación.html">CONTACTENOS</a>
+        <a href="contactos.html">¿QUIENES SOMOS?</a>
+    </nav>
+    <main>
+        <section id="empresa">
+            <h2>Sobre nosotros</h2>
+            <p>Avícola "EBER" una tienda con más de 50 años en el sector avícola, con presencia en diferentes regiones de Colombia, destacandose por su crecimiento y liderazgo en el sector, adicionalmente incorporamos a nuestra cadena de produccion nuevos productos como porcicultura y abonos orgánicos.</p>
+            <p>Nuestro Proposito es "NUTRIR SALUDABLEMENTE"</p>
+        </section>
+        <section class="productos">
+            <h2>Productos</h2>
+            <img src="imagenes/gallina.webp" alt="Imagen de pollo" height="250" width="250">
+            <img src="imagenes/bolsas.webp" alt="Imagen de puerco" height="250" width="250">
+            <img src="imagenes/platos-desechables-1.jpg" alt="Imagen de abonos orgánicos" height="250" width="250">
+            <img src="imagenes/té 2.jpg" alt="filtrante" height="250" width="250"> <br>
+            <a href="Ubicación.html">Contactenos</a>
+            <a href="Productos.html">Leer más</a>
+            
+        </section>
+        <section class="product-category">
+            <ul>
+                <li>
+                    <h3>Línea Avícola</h3>
+                    <ul>
+                        <li>
+                            <h4>Bandeja Comedero</h4>
+                            <p>Huevos de Gallina </p>
+                            <img src="imagenes/huevos de gallina 2.jpg" alt="huevos de gallina" height="200" width="250">
+                            <img src="imagenes/huevos de gallina.jpg" alt="huevos de gallina" height="200" width="250">
+                            <img src="imagenes/huevos de gallina4.jpg" alt="huevos de gallina" height="200" width="250"> <br>
+                            <img src="imagenes/huevos de gallina5.jpg" alt="huevos de gallinas" height="200" width="250">
+                            <img src="imagenes/huevos de gallinas 2.jpg" alt="huevos" height="200" width="250">
+                            <img src="imagenes/huevoiii.avif" alt="huevito" height="200" width="250">
+                            <p>S/7.00</p>
+                            <button>Comprar</button>
+                        </li>
+                        <li>
+                            <h4>Enavases decartables</h4>
+                            <img src="imagenes/platos descartables 1.jpg" alt="decartables" height="200" width="250">
+                            <img src="imagenes/vasos descartables 2.webp" alt="decartables" height="200" width="250">
+                            <img src="imagenes/vasos descartables 3.webp" alt="decartables" height="200" width="250"><br>
+                            <img src="imagenes/vasos descartables 4.png" alt="decartables" height="200" width="250">
+                            <img src="imagenes/vasos descartables 5.jpg" alt="decartables" height="200" width="250">
+                            <img src="imagenes/vasos descartables 6.webp" alt="decartables" height="200" width="250">
+                            <p>Adultas (Plaisón)</p>
+                            <button>Comprar</button>
+                        </li>
+                        <li>
+                            <h4>Bebedero para aves BB</h4>
+                            <img src="imagenes/té 1.jpg" alt="filtrante" height="250" width="200">
+                            <p>Completo</p>
+                            <p>S/7.00</p>
+                            <button>Comprar</button>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="procesos">
+            <h2>Procesos</h2>
+            <p>Aquí describirás los procesos de tu empresa.</p>
+        </section>
+    </main>
+    <footer>
+        <p>DETALLES DE CONTACTO <br> Contacta con nosotros hoy! </p>
+        <li> Av. Alfredo Mendiola 5805, Lima, Perú</li>
+        <li>ventas@distribuidoradonbosco.com.pe</li>
+        <li> (+511) 528 1261</li>
+        <hr>
+        <p>© 2024 Avícola "EBER"</p>
+    </footer>
+</body>
+</html>
